@@ -6,48 +6,36 @@ header {
   position: relative;
   font-family: "Open Sans", "微軟正黑體";
 }
-
 header .language {
   position: fixed;
   z-index: 20;
-  -webkit-transition: 0.3s;
   transition: 0.3s;
   font-size: 20px;
   font-weight: 600;
 }
-
 header .language:hover {
   cursor: pointer;
   color: #5adbbb !important;
 }
-
 header .zhipin_icon_wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 header .zhipin_icon_wrap .zhipin_icon {
   width: 80px;
   height: 80px;
   margin: 20px 10px 10px 40px;
 }
-
 header .zhipin_icon_wrap .logo_text {
   text-align: center;
   line-height: 115px;
   font-size: 16px;
   font-weight: 600;
 }
-
 header .zhipin_icon_wrap .zhipin_icon:hover,
 header .zhipin_icon_wrap .logo_text:hover {
   cursor: pointer;
 }
-
 header .header_list_top {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
   font-size: 14px;
@@ -55,41 +43,30 @@ header .header_list_top {
   top: 0%;
   right: 2%;
 }
-
 header .header_list_top li {
   padding: 8px 12px;
 }
-
 header .header_list_top li a {
   color: black;
   padding: 4px 0px;
-  -webkit-text-decoration: black underline;
-          text-decoration: black underline;
+  text-decoration: black underline;
   font-weight: 500;
 }
-
 header .header_list_top li a:hover {
   color: #007bff;
-  -webkit-text-decoration: #007bff underline;
-          text-decoration: #007bff underline;
+  text-decoration: #007bff underline;
 }
-
 header .header_list_top li p {
   cursor: default;
 }
-
 header .header_list_top li .text_opacity {
   opacity: 30%;
 }
-
 header .header_list_top li .text_opacity:hover {
   opacity: 100%;
   cursor: pointer;
 }
-
 header .header_list_bot {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
   font-size: 14px;
@@ -97,47 +74,38 @@ header .header_list_bot {
   bottom: -10%;
   right: 2%;
 }
-
 header .header_list_bot li {
   padding: 8px 16px;
 }
-
 header .header_list_bot li .tel,
 header .header_list_bot li .contact {
   color: black;
   font-weight: 600;
 }
-
 header .header_list_bot li .tel:hover,
 header .header_list_bot li .contact:hover {
   text-decoration: none;
   cursor: default;
 }
-
 header .header_list_bot li .bot {
   color: black;
   font-weight: 600;
 }
-
 header .header_list_bot li .bot:hover {
   color: #007bff;
   text-decoration: none;
 }
-
 header .header_list_bot li .blue {
   color: #007bff;
 }
-
 header .header_list_bot_600 {
   display: none;
 }
-
 header .menu {
   width: 30px;
   height: 30px;
   display: none;
 }
-
 @media screen and (max-width: 600px) {
   header .en {
     font-size: 10px;
@@ -191,7 +159,6 @@ header .menu {
   background-size: cover;
   position: relative;
 }
-
 .slider .start_your_project {
   width: 300px;
   height: 65px;
@@ -205,38 +172,29 @@ header .menu {
   top: calc(50% - 36px);
   left: calc(50% - 150px);
 }
-
 .slider .start_your_project a {
   color: black;
 }
-
 .slider .start_your_project a:hover {
   text-decoration: none;
 }
-
 .slider .start_your_project:hover {
   cursor: pointer;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: 0.5s;
+  transform: scale(1.2);
   transition: 0.5s;
 }
 
 .carousel {
   font-family: "Open Sans", "微軟正黑體";
 }
-
 .carousel .carousel-item {
   height: 540px;
 }
-
 .carousel .carousel-item img {
   min-height: 540px;
   max-height: 1600px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
-
 .carousel .start_your_project {
   width: 240px;
   height: 50px;
@@ -252,18 +210,14 @@ header .menu {
   left: calc(50% - 100px);
   z-index: 10;
 }
-
 .carousel .start_your_project a {
   color: white;
 }
-
 .carousel .start_your_project a:hover {
   text-decoration: none;
 }
-
 .carousel .start_your_project:hover {
   cursor: pointer;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   background: #0070e0;
 }
@@ -271,27 +225,20 @@ header .menu {
 .index {
   font-family: "Open Sans", "微軟正黑體";
 }
-
 .index main .our_services {
   max-width: 100vw;
   height: 500px;
 }
-
 .index main .our_services .our_services_text {
   font-size: 24px;
   text-align: left;
   font-weight: bolder;
   margin-top: 50px;
-  -webkit-transform: translateX(5vw);
-          transform: translateX(5vw);
+  transform: translateX(5vw);
 }
-
 .index main .our_services .item_wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .index main .our_services .item_wrap .box {
   width: 25%;
   height: 250px;
@@ -300,73 +247,57 @@ header .menu {
   line-height: 250px;
   color: black;
 }
-
 .index main .our_services .item_wrap .box .box_text {
-  -webkit-transform: translateY(-100px);
-          transform: translateY(-100px);
+  transform: translateY(-100px);
   font-size: 18px;
 }
-
 .index main .our_services .item_wrap .box img {
   width: 100%;
 }
-
 .index main .our_services .item_wrap .box:hover {
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   text-decoration: none;
   color: #5adbbb;
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  transform: scale(1.1);
 }
-
 .index main .step {
   max-width: 100vw;
   height: 1000px;
 }
-
 .index main .step .step_text {
   font-size: 24px;
   text-align: left;
   font-weight: bolder;
   margin: 30px 0 100px;
-  -webkit-transform: translateX(5vw);
-          transform: translateX(5vw);
+  transform: translateX(5vw);
 }
-
 .index main .step .step_img_wrap {
   width: 400px;
   height: 350px;
   display: block;
   margin: 50px auto -50px;
 }
-
 .index main .step .step_img_wrap .file_img {
-  -webkit-transform: translateX(6vw);
-          transform: translateX(6vw);
+  transform: translateX(6vw);
 }
-
 .index main .step .step_img_wrap .file_img .step_img_STL_file,
 .index main .step .step_img_wrap .file_img .step_img_No_file {
   width: 110px;
   height: auto;
   padding: 5px;
 }
-
 .index main .step .step_img_wrap .step_img_3D_printing {
   width: 230px;
   height: auto;
   display: block;
   margin: auto;
 }
-
 .index main .step .step_img_wrap .step_img_Dispatch {
   width: 300px;
   height: auto;
   display: block;
   margin: auto;
 }
-
 .index main .step .step_img_wrap .step_img_450,
 .index main .step .step_img_wrap .step_img_1200,
 .index main .step .step_img_wrap .step_img_3000 {
@@ -375,95 +306,67 @@ header .menu {
   display: block;
   margin: auto;
 }
-
 .index main .step .step_img_wrap .img_text {
   text-align: center;
-  -webkit-transform: translateY(40%);
-          transform: translateY(40%);
+  transform: translateY(40%);
 }
-
 .index main .step .step_img_wrap svg:hover,
 .index main .step .step_img_wrap polygon:hover path {
   fill: #0099ff;
   cursor: pointer;
 }
-
 .index main .step .file {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .index main .step .file img {
   padding-right: 40px;
 }
-
 .index main .step .file .step_img_wrap2 .img_text {
-  -webkit-transform: translateY(70%);
-          transform: translateY(70%);
+  transform: translateY(70%);
 }
-
 .index main .step .file .step_img_wrap3 .img_text {
-  -webkit-transform: translateY(65%);
-          transform: translateY(65%);
+  transform: translateY(65%);
 }
-
 .index main .step .print {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
 }
-
 .index main .step .print img {
   padding-right: 70px;
 }
-
 .index main .other_services {
   max-width: 100vw;
   height: 600px;
 }
-
 .index main .other_services .other_text {
   font-size: 24px;
   text-align: left;
   font-weight: bolder;
   margin: 30px 0 100px;
-  -webkit-transform: translateX(5vw);
-          transform: translateX(5vw);
+  transform: translateX(5vw);
 }
-
 .index main .other_services .other {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .index main .other_services .other .other_img_wrap {
   width: 400px;
   height: 350px;
   display: block;
   margin: 50px auto -50px;
 }
-
 .index main .other_services .other .other_img_wrap .other_img {
   width: 200px;
   height: auto;
   display: block;
   margin: 50px auto -50px;
 }
-
 .index main .other_services .other .other_img_wrap .img_text {
   text-align: center;
-  -webkit-transform: translateY(120%);
-          transform: translateY(120%);
+  transform: translateY(120%);
 }
-
 .index main .other_services .other .other_img_wrap .img_text_vacuum {
-  -webkit-transform: translateY(100%);
-          transform: translateY(100%);
+  transform: translateY(100%);
 }
-
 @media screen and (max-width: 600px) {
   .index main .our_services {
     height: 2000px;
@@ -485,8 +388,7 @@ header .menu {
     display: block;
   }
   .index main .step .file .file_img {
-    -webkit-transform: translateX(19vw);
-            transform: translateX(19vw);
+    transform: translateX(19vw);
   }
   .index main .step .print {
     display: block;
@@ -502,45 +404,35 @@ header .menu {
 .item {
   font-family: "Open Sans", "微軟正黑體";
 }
-
 .item main {
   max-width: 100vw;
   height: 800px;
   margin-top: 40px;
 }
-
 .item main .list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
-
 .item main .list li {
   padding: 8px 16px;
 }
-
 .item main .list li a {
   color: black;
   padding: 4px 10px;
 }
-
 .item main .list li a:hover {
   color: #5adbbb;
 }
-
 .item main .drag_wrap {
   width: 240px;
   height: 600px;
   padding: 0.5em;
   position: relative;
 }
-
 .item main .drag_wrap .draggable {
   z-index: 10;
   position: absolute;
 }
-
 .item main .icon {
   width: 48px;
   height: 48px;
@@ -551,13 +443,11 @@ header .menu {
   background-color: black;
   position: relative;
 }
-
 .item main .shirt-wrap {
   width: 60%;
   height: 600px;
   z-index: -2;
 }
-
 .item main .shirt-wrap .shirt-back {
   width: 500px;
   height: 500px;
@@ -566,7 +456,6 @@ header .menu {
   position: absolute;
   left: 40%;
 }
-
 .item main .shirt-wrap .shirt {
   width: 500px;
   height: 500px;
@@ -578,7 +467,6 @@ header .menu {
   position: absolute;
   left: 40%;
 }
-
 .item main .shirt-wrap .shirt-bg {
   width: 500px;
   height: 500px;
@@ -587,11 +475,9 @@ header .menu {
   position: absolute;
   left: 40%;
 }
-
 .item main .icon-red {
   background-color: red;
 }
-
 .item main .icon-orange {
   background-color: orange;
 }
@@ -599,52 +485,43 @@ header .menu {
 .file {
   font-family: "Open Sans", "微軟正黑體";
 }
-
 .file main .step {
   max-width: 100vw;
   height: 1000px;
 }
-
 .file main .step .step_text {
   font-size: 24px;
   text-align: center;
   font-weight: bolder;
   margin: 100px 0 100px;
 }
-
 .file main .step .step_img_wrap {
   width: 400px;
   height: 350px;
   display: block;
   margin: 50px auto -50px;
 }
-
 .file main .step .step_img_wrap .file_img {
-  -webkit-transform: translateX(6vw);
-          transform: translateX(6vw);
+  transform: translateX(6vw);
 }
-
 .file main .step .step_img_wrap .file_img .step_img_STL_file,
 .file main .step .step_img_wrap .file_img .step_img_No_file {
   width: 110px;
   height: auto;
   padding: 5px;
 }
-
 .file main .step .step_img_wrap .step_img_3D_printing {
   width: 230px;
   height: auto;
   display: block;
   margin: auto;
 }
-
 .file main .step .step_img_wrap .step_img_Dispatch {
   width: 300px;
   height: auto;
   display: block;
   margin: auto;
 }
-
 .file main .step .step_img_wrap .step_img_450,
 .file main .step .step_img_wrap .step_img_1200,
 .file main .step .step_img_wrap .step_img_3000 {
@@ -653,50 +530,34 @@ header .menu {
   display: block;
   margin: auto;
 }
-
 .file main .step .step_img_wrap .img_text {
   text-align: center;
-  -webkit-transform: translateY(40%);
-          transform: translateY(40%);
+  transform: translateY(40%);
 }
-
 .file main .step .step_img_wrap svg:hover,
 .file main .step .step_img_wrap polygon:hover path {
   fill: #0099ff;
   cursor: pointer;
 }
-
 .file main .step .file {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 .file main .step .file img {
   padding-right: 40px;
 }
-
 .file main .step .file .step_img_wrap2 .img_text {
-  -webkit-transform: translateY(70%);
-          transform: translateY(70%);
+  transform: translateY(70%);
 }
-
 .file main .step .file .step_img_wrap3 .img_text {
-  -webkit-transform: translateY(65%);
-          transform: translateY(65%);
+  transform: translateY(65%);
 }
-
 .file main .step .print {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 40px;
 }
-
 .file main .step .print img {
   padding-right: 70px;
 }
-
 @media screen and (max-width: 600px) {
   .file main .step {
     height: 2400px;
@@ -708,8 +569,7 @@ header .menu {
     margin-bottom: 20px;
   }
   .file main .step .file .file_img {
-    -webkit-transform: translateX(18vw);
-            transform: translateX(18vw);
+    transform: translateX(18vw);
   }
   .file main .step .print {
     display: block;
@@ -725,50 +585,40 @@ header .menu {
 .nofile {
   font-family: "Open Sans", "微軟正黑體";
 }
-
 .nofile main .border-red {
   border: red 2px solid;
 }
-
 .nofile main .file_form {
   margin: 100px auto;
   width: 46%;
   padding: 40px;
   font-weight: 800;
 }
-
 .nofile main .file_form .nofile_img_wrap {
   margin: 0 auto 8vh;
   width: 100%;
   height: 30vh;
   text-align: center;
 }
-
 .nofile main .file_form .nofile_img_wrap .no_file_uploadImg {
   width: 50%;
 }
-
 .nofile main .file_form .nofile_img_wrap .no_file_uploadImg .nofile_img {
   width: 80px;
   margin-bottom: 20px;
 }
-
 .nofile main .file_form .nofile_img_wrap .no_file_uploadImg h5 {
   font-weight: 600;
 }
-
 .nofile main .file_form .nofile_img_wrap .no_file_uploadImg p {
   font-size: 14px;
 }
-
 .nofile main .file_form .nofile_img_wrap .image {
   min-width: 50%;
   text-align: center;
   margin-left: 2vw;
-  -webkit-transform: translateY(10vh);
-          transform: translateY(10vh);
+  transform: translateY(10vh);
 }
-
 .nofile main .file_form .nofile_img_wrap .image .uploadYourImgText,
 .nofile main .file_form .nofile_img_wrap .image .uploadYourFileText {
   color: white;
@@ -778,33 +628,27 @@ header .menu {
   min-width: 50%;
   white-space: nowrap;
 }
-
 .nofile main .file_form .nofile_img_wrap .image .stiFileText,
 .nofile main .file_form .nofile_img_wrap .image .imgText {
   color: #007bff;
 }
-
 .nofile main .file_form .nofile_img_wrap .image .stiFileText:hover,
 .nofile main .file_form .nofile_img_wrap .image .imgText:hover {
   cursor: pointer;
 }
-
 .nofile main .file_form .lname {
   margin-right: 40px;
   width: 60%;
 }
-
 .nofile main .file_form .form-control {
   margin-top: -5px;
   margin-bottom: 10px;
 }
-
 .nofile main .file_form .submit {
   border: 2px solid #007bff;
   border-radius: 20px;
   color: #007bff;
 }
-
 @media screen and (max-width: 600px) {
   .nofile .file_form {
     min-width: 100%;
@@ -821,22 +665,17 @@ footer {
   font-weight: 600;
   text-align: center;
 }
-
 footer .s-icon {
-  -webkit-transform: translateY(-0.5vh) scale(0.9);
-          transform: translateY(-0.5vh) scale(0.9);
+  transform: translateY(-0.5vh) scale(0.9);
 }
-
 footer .logo_img .logo_img_FB {
   width: 15px;
   margin-right: 10px;
   border-radius: 30%;
 }
-
 footer .logo_img a {
   text-decoration: none;
 }
-
 footer .logo_img .logo_img_IG,
 footer .logo_img .logo_img_Twitter,
 footer .logo_img .logo_img_Youtube {
@@ -844,4 +683,3 @@ footer .logo_img .logo_img_Youtube {
   margin-right: 10px;
   border-radius: 30%;
 }
-/*# sourceMappingURL=index.css.map */
